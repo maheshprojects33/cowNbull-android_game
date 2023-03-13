@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Cow And Bull</string>
+
+    <string name="rules"><font fgcolor='#FF00BCD4'>It is an exciting game for all aged group. This does not only entertains you but also helps to develop your mental capacity.</font>
+        \n <b><font fgcolor='#FFFF3B30'> \nHow to Play: </font> </b>
+        \n\n1. Guess a 4 letters word and type in the<font fgcolor='#FFFF5722'> <b>GUESS WORD</b> </font> space.
+        \n\n2. The number that appears in <font fgcolor='#FFFF5722'> <b>COW</b> </font> Column means, the numbers of <font fgcolor='#FFFF5722'> correct alphabet </font> you guessed but <font fgcolor='#FFFF5722'> not in correct place </font> . Whereas when the guessed alphabet is <font fgcolor='#FFFF5722'> correct </font> and also placed in the <font fgcolor='#FFFF5722'> right position </font>, it appears in <font fgcolor='#FFFF5722'> <b>Bull</b> </font> Column.
+        \n\n3. Keep on guessing and exercising your brain until you get the right word and <font fgcolor='#FFFF5722'> secure 4 in Bull </font> column.
+        \n\n4. You are <font fgcolor='#FFFF5722'> not allow </font> to enter <font fgcolor='#FFFF5722'> same character </font> in a word.
+
+        <font fgcolor='#FFFF5722'> \n\nKeep playing keep growing ENJOY. </font>
+    </string>
+
+
+    <color name="status_running">#00BCD4</color>
+</resources>

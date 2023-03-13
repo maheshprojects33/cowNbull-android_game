@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_page"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/MaterialAlertDialog.MaterialComponents.Title.Panel"
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Cow 'N' Bull"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FF5722" />
+
+    <TextView
+        android:id="@+id/tvSubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Crack The Word"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#9C27B0" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvSubTitle"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFF"
+        android:text="PLAY"
+        android:onClick="playBtn"/>
+    <Button
+        android:id="@+id/btnRules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnPlay"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFF"
+        android:text="RULES"
+        android:onClick="rulesBtn"/>
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnRules"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFF"
+        android:text="EXIT"
+        android:onClick="exitBtn"/>
+
+    <Button
+        android:id="@+id/btnScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnExit"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFF"
+        android:text="SCORE"
+        android:onClick="exitBtn"/>
+
+    <TextView
+        android:id="@+id/tvMahesh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Developed By Mahesh Dangol "
+        android:textColor="#FFC107"
+        android:textStyle="italic" />
+
+</RelativeLayout>
